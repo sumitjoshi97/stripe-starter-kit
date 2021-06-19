@@ -1,0 +1,9 @@
+# 
+# folders / files to be ignored while committing for github
+# 
+
+#node packages
+/node_modules/
+
+#development environment variables
+.env
