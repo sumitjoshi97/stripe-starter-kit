@@ -2,6 +2,8 @@ lockfileVersion: 5.3
 
 specifiers:
   '@material-ui/core': ^4.11.4
+  '@stripe/react-stripe-js': ^1.4.1
+  '@stripe/stripe-js': ^1.15.1
   '@testing-library/jest-dom': ^5.11.4
   '@testing-library/react': ^11.1.0
   '@testing-library/user-event': ^12.1.10
@@ -13,6 +15,8 @@ specifiers:
 
 dependencies:
   '@material-ui/core': 4.11.4_react-dom@17.0.2+react@17.0.2
+  '@stripe/react-stripe-js': 1.4.1_ce05d072f63192a354024a2641f3b653
+  '@stripe/stripe-js': 1.15.1
   '@testing-library/jest-dom': 5.14.1
   '@testing-library/react': 11.2.7_react-dom@17.0.2+react@17.0.2
   '@testing-library/user-event': 12.8.3
@@ -1995,6 +1999,23 @@ packages:
     resolution: {integrity: sha512-MZPUxrmFubI36XS1DI3qmI0YdN1gks62JtFZvxR67ljjSNCeK6U08Zx4msEWOXuofgqUt6zPHSi1H9fbjR/NRA==}
     dependencies:
       '@sinonjs/commons': 1.8.3
+    dev: false
+
+  /@stripe/react-stripe-js/1.4.1_ce05d072f63192a354024a2641f3b653:
+    resolution: {integrity: sha512-FjcVrhf72+9fUL3Lz3xi02ni9tzH1A1x6elXlr6tvBDgSD55oPJuodoP8eC7xTnBIKq0olF5uJvgtkJyDCdzjA==}
+    peerDependencies:
+      '@stripe/stripe-js': ^1.13.0
+      react: ^16.8.0 || ^17.0.0
+      react-dom: ^16.8.0 || ^17.0.0
+    dependencies:
+      '@stripe/stripe-js': 1.15.1
+      prop-types: 15.7.2
+      react: 17.0.2
+      react-dom: 17.0.2_react@17.0.2
+    dev: false
+
+  /@stripe/stripe-js/1.15.1:
+    resolution: {integrity: sha512-yJiDGutlwu25iajCy51VRJeoH3UMs+s5qVIDGfmPUuFpZ+F6AJ9g9EFrsBNvHxAGBahQFMLlBdzlCVydhGp6tg==}
     dev: false
 
   /@surma/rollup-plugin-off-main-thread/1.4.2:
